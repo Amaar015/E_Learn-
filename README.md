@@ -1,48 +1,64 @@
-# E-Learn 
+ #E-LEARN
 
-## Introduction 
+### Group Members: 20SW015 & 20SW047
 
-E-Learn is the Mobile application for the developers and beginners. E-Learn provides the famous programming languages give the details of each topic and syntax (how to use in program in computer) in easy and simple way which every one can understand, and another main thing we have videos if you can’t get concept from tutorial then you go to video for more details of topic easy within a click.
+# INTRODUCTION:
 
-## Problem Statement
+E-Learn is a mobile application designed for developers and beginners. It provides detailed information on various programming languages in an easy and simple manner that everyone can understand. Additionally, we offer video tutorials for those who prefer visual learning.
 
- The main problem is that many students when they start programming, they feel it is very difficult to learn because they don’t have proper way or proper platform to learn in simple ways. Sometimes developers have the concepts of elements (for, while and class) but they forget the proper syntax how to use it, so they start searching here and where to get the easy and understandable method that they can use.
+# PROBLEM STATEMENT:
 
- ## PROPOSED SOLUTION:
-  The proposed solution is that we brought to you E-learn application to learn easy and in hand tutorial for beginners too easy to learn, and developers can also get help from our platform, and we provide different certificates after completing the courses and clear the Quiz related to the languages.
+Many students find programming challenging because they lack a proper platform for learning in a simplified way. Sometimes, developers grasp the concepts of elements (such as loops and classes) but struggle with the correct syntax for implementation. This leads them to search extensively for an easily understandable method.
 
-## Features
+# PROPOSED SOLUTION:
 
-1.	User-Friendly Interface
-•	The application boasts an intuitive and easy-to-navigate interface, ensuring a seamless   experience for both IT students, Beginners and Developers.
+We present E-Learn, an application that offers tutorials tailored for both beginners and developers. We aim to provide a convenient and accessible learning experience. Upon course completion and successful quiz results, we issue certificates related to the programming languages.
 
-3.	Authentication System
+# FEATURES:
 
-•	Robust authentication mechanisms are implemented, ensuring secure access to the application and safeguarding user data(using script.js library with 10 rounds to break password ).
-•	Guarantees data privacy and security for both students and developers.
-•	Enables personalized experiences based on user roles and permissions.
+## User-Friendly Interface: 
 
-3.	Learning Tutorial
+The application features an intuitive and easy-to-navigate interface, ensuring a seamless experience for IT students, beginners, and developers.
 
-•	Easy and Clear written in understandable language
-•	Description of every topic in clear understandable format along with syntax.
-•	Given the clear description of syntax and topic.
-  
-4.	 Video for Learing
-         
-•	E-Learn give the basic description of topics if you need more information regarding to the topic you can visit the video withing a single click no need to search here and where for the topics.
-•	User can easily navigate from video to back to the app.
+## Authentication System:
+ Robust authentication mechanisms are implemented to secure access to the application and protect user data (using script.js library with 10 rounds for password encryption).
+Guarantees data privacy and security for all users.
+Enables personalized experiences based on user roles and permissions.
+## Learning Tutorial:
+Clear and easy-to-understand content.
+Description of every topic in a comprehensible format, along with syntax explanations.
 
-5.	   Crash Courses and Certificates
-                    
-•	E-learn provides a crash short course in different languages.
-•	Certificates are helpful for beginners to grow their skills.
-•	In the end of course we provide you McQ’s test  after the clearance of test with 70% you get your certificate through the mail 
+## Video Tutorials:
+E-Learn provides concise descriptions of topics. For more in-depth information, users can easily access video tutorials with a single click.
+Crash Courses and Certificates:
 
-6.	        Snapshoots of Syntax 
-                                 
-•	In E-learn application we provide a snapshoot of syntax and code examples 
-•	From snapshoots developer and IT students get fast review of concepts.
+## E-Learn offers crash courses in various languages.
+Certificates are provided to help beginners enhance their skills.
+After completing the course, a multiple-choice test is administered. Upon achieving a 70% or higher score, the certificate is sent via email.
+
+## Syntax Snapshots:
+In the E-Learn application, we include snapshots of syntax and code examples.
+Developers and IT students can quickly review concepts.
+
+# TECHNOLOGIES USED:
+E-Learn application is developed using the following technologies:
+
+## Flutter:
+A cross-platform framework for building natively compiled applications, utilizing the Dart programming language.
+## Node.js:
+A JavaScript library used for backend development.
+## Express.js:
+An extension of Node.js used to create backend APIs, perform database operations in MongoDB, and handle routing.
+## MongoDB:
+A NoSQL database used for data storage in the Flutter app. Data is fetched using APIs created with Express and Node JavaScript.
+
+ #DEVELOPMENT CHALLENGES:
+## Node.js Database Connection Errors:
+During the development of the E-Learn application, we encountered errors related to establishing a connection with the backend in Node.js, particularly in the database connection phase.
+
+## Adding REST API:
+Another challenge arose when implementing REST APIs. We initially used 'localhost' for data retrieval, but in Flutter, data is fetched from the local database using the IPV4 network address. Adjusting to this required additional effort.
+
 
 
 ## UI designs 
@@ -71,5 +87,3 @@ E-Learn is the Mobile application for the developers and beginners. E-Learn prov
 ![e-5](https://github.com/Amaar015/E_Learn-/assets/93473921/9c8b52a9-6b52-425a-be06-db508ca60c0b)
 
 
-
-##  Errors During Development 
